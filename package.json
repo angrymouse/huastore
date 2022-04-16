@@ -1,0 +1,19 @@
+{
+  "name": "chainify",
+  "version": "0.0.1",
+  "description": "Tool to make chunks from big data. May be useful for uploading large files on services, that only support small chunks for free/cheap. ",
+  "main": "index.built.js",
+  "repository": "https://github.com/angrymouse/chainify",
+  "author": "Angrymouse <nik@hns.is>",
+  "license": "ISC",
+  "private": false,
+  "devDependencies": {
+    "esbuild": "^0.14.34"
+  },
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.28.4",
+    "@cosmjs/stargate": "^0.28.4",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.2.3"
+  }
+}
