@@ -1,4 +1,4 @@
-# HUAHUA-datachain
+# Huastore
 ## Motivation and how it works
 This library is thing that will allow you to upload large files to chihuhua chain (but not so large as cinema or etc, maximim recommended limit is 10 mb).
 It uses transfers with storing data in MEMO as data storage.
@@ -6,9 +6,9 @@ Normal MEMO allows just 255 chars, and when you want to upload large chunks of d
 ## Usage from JS (node)
 
 ### Initializing client
- To use huahua-datachain you should import and initialize it:
+ To use huastore you should import and initialize it:
 ```js
-let huastore=require("huahua-datachain")
+let huastore=require("huastore")
 let huaclient=await huastore("my memo from wallet with some huahua")
 ```
  Now you can use huaclient to download and upload transactions to huahua!

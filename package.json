@@ -1,9 +1,9 @@
 {
-  "name": "huahua-datachain",
+  "name": "huastore",
   "version": "0.0.1",
-  "description": "Tool to make chunks from big data. May be useful for uploading large files on services, that only support small chunks for free/cheap. ",
+  "description": "Library to post large amounts of data on huahua blockchain",
   "main": "huahua-interface.js",
-  "repository": "https://github.com/angrymouse/huahua-datachain",
+  "repository": "https://github.com/angrymouse/huastore",
   "author": "Angrymouse <nik@hns.is>",
   "license": "ISC",
   "private": false,
